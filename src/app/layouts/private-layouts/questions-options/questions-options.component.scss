@@ -1,0 +1,96 @@
+.questions-outer {
+    background: #fafdff;
+    color: #1c1953;
+    height: 100vh;
+
+    .altcontainer {
+        background-color: #fff;
+        font-size: 120%;
+        line-height: 1.7em;
+
+        .radiocontainer {
+            background-color: #f1f1f1;
+            display: block;
+            position: relative;
+            padding: 10px 10px 10px 50px;
+            margin-bottom: 1px;
+            cursor: pointer;
+            font-size: 18px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            word-wrap: break-word;
+
+            input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+            }
+
+            .checkmark {
+                position: absolute;
+                top: 15px;
+                left: 15px;
+                height: 19px;
+                width: 19px;
+                background-color: #fff;
+                border-radius: 50%;
+            }
+
+            input:checked~.checkmark {
+                background-color: #2196F3;
+            }
+
+            &:hover {
+                background-color: #ddd;
+            }
+        }
+    }
+
+
+    .ansbuttoncontainer {
+
+        .previous,
+        .next {
+            float: left;
+            height: 35px;
+            margin-top: 16px;
+            margin-right: 16px;
+        }
+
+        .submit {
+            height: 35px;
+            margin-top: 16px;
+        }
+
+    }
+}
+
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    .questions-outer {
+        .container {
+            width: 90%;
+
+            .ansbuttoncontainer {
+
+                .previous,
+                .next {
+                    float: left;
+                    height: 30px;
+                    margin-top: 16px;
+                    margin-right: 16px;
+                    width: 76px;
+                }
+
+                .submit {
+                    height: 30px;
+                    margin-top: 16px;
+                    width: 76px;
+                }
+
+            }
+        }
+    }
+}

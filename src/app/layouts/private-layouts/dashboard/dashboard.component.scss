@@ -1,0 +1,181 @@
+@import "../../../shared/common-styles/variable.scss";
+
+.main-page {
+    background: #fafdff;
+    color: #1c1953;
+    height: 100vh;
+
+    .dashboard-heading {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: left;
+        border-bottom: 1px solid #bdc0e5;
+        margin-bottom: 0px;
+        background: #fff;
+        grid-column-gap: 20px;
+
+        .left-side {
+            img {
+                width: 200px;
+                margin-left: 34px;
+                margin-top: 6px;
+            }
+        }
+
+        .middle-side {
+            h3 {
+                margin: 24px 0px;
+            }
+        }
+
+        .right-side {}
+    }
+
+    .center-row {
+        margin: 10px 16px 10px 20px;
+
+        .sample-text {
+            width: 85%;
+            display: inline-block;
+            padding: 15px;
+        }
+
+        .pay-btn {
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 12px;
+
+            .start-test-btn {
+                float: none;
+            }
+        }
+    }
+
+    .container {
+        .card-deck {
+            justify-content: center;
+
+            .card {
+                @include card-bg-color;
+                margin-bottom: 26px;
+                flex: auto;
+
+                .card-body {
+                    .card-heder {
+                        .card-text {
+                            margin-bottom: 8px;
+                        }
+                    }
+
+                    .card-body-inner {
+                        .card-text {
+                            margin-bottom: 8px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:479px) {
+    .main-page {
+        .dashboard-heading {
+            grid-template-columns: auto;
+            justify-content: center;
+
+            .left-side {
+                .navbar-brand {
+                    width: 100%;
+                    margin: auto;
+
+                    img {
+                        width: 200px;
+                        margin-left: 34px;
+                        margin-top: 6px;
+                        margin: 12px auto;
+                        display: block;
+                    }
+                }
+            }
+
+            .middle-side {
+                h3 {
+                    margin: 0px 0px 10px 0px;
+                    font-size: 14px;
+                    line-height: 1.5;
+                }
+            }
+        }
+
+        .center-row {
+
+            .sample-text {
+                width: 100%;
+            }
+
+            .pay-btn {
+                display: block;
+                vertical-align: top;
+                padding-bottom: 12px;
+                padding-top: 12px;
+
+                .start-test-btn {
+                    margin: auto;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    .main-page {
+        .dashboard-heading {
+            grid-template-columns: auto;
+            justify-content: center;
+
+            .left-side {
+                .navbar-brand {
+                    width: 100%;
+                    margin: auto;
+
+                    img {
+                        width: 200px;
+                        margin-left: 34px;
+                        margin-top: 6px;
+                        margin: 12px auto;
+                        display: block;
+                    }
+                }
+            }
+
+            .middle-side {
+                h3 {
+                    margin: 0px 0px 10px 0px;
+                    font-size: 16px;
+                    line-height: 1.5;
+                }
+            }
+        }
+
+        .center-row {
+
+            .sample-text {
+                width: 100%;
+            }
+
+            .pay-btn {
+                display: block;
+                vertical-align: top;
+                padding-bottom: 12px;
+                padding-top: 12px;
+
+                .start-test-btn {
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,152 @@
+@import "./variable.scss";
+
+/* Login and register css start */
+.login-page-container {
+    @include bg-color-9;
+    height: 100vh;
+
+    .login-form {
+        width: 380px;
+        margin: 0 auto;
+        width: 380px;
+        margin: 0 auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        .avatar {
+            margin: 0 auto 30px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            z-index: 9;
+            background: $btn-color-1;
+            padding: 15px;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .form-group {
+            .form-control {
+                font-size: 16px;
+                background: #f2f2f2;
+                box-shadow: none !important;
+                border-color: transparent;
+
+                &:focus {
+                    border-color: #d3d3d3;
+                }
+            }
+
+            .btn {
+                border-radius: 2px;
+                font-weight: bold;
+                background: $btn-color-1;
+                border: none;
+                margin-bottom: 20px;
+
+                &:hover {
+                    background: $btn-color-2;
+                    outline: none !important;
+                }
+
+                &:focus {
+                    background: $btn-color-2;
+                    outline: none !important;
+                }
+            }
+        }
+
+
+        h2 {
+            margin: 0;
+            padding: 30px 0;
+            font-size: 34px;
+        }
+
+        .hint-text {
+            color: #999;
+            text-align: center;
+
+            a {
+                color: $btn-color-1;
+            }
+        }
+
+        .form-footer {
+            padding-bottom: 15px;
+            text-align: center;
+
+            a {
+                color: $btn-color-1;
+            }
+        }
+
+        form {
+            color: #7a7a7a;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            background: #fff;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+
+            a {
+                color: $btn-color-1;
+            }
+        }
+    }
+
+    .login-form a:hover,
+    .login-form form a:hover {
+        text-decoration: underline;
+    }
+}
+
+/* Login and register css end */
+
+.start-test-btn {
+    background: $btn-color-1;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: 600;
+    display: block;
+    width: 100px;
+    float: right;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    height: 28px;
+    line-height: 1.8;
+    cursor: pointer;
+
+    &:hover {
+        background: $btn-color-2;
+        border: 1px solid transparent;
+        color: #fff;
+    }
+}
+
+/* All page media query start */
+
+@media screen and (min-width:0px) and (max-width:480px) {
+
+    /* Login and register css end */
+    .login-page-container {
+        .login-form {
+            width: 320px;
+            margin: 0 auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    /* Login and register css end */
+}
+
+/* All page media query end */

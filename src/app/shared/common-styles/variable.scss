@@ -1,0 +1,103 @@
+/* color variable start */
+
+@mixin bg-color-1 {
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin bg-color-2 {
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff6a00, #ee0979);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff6a00, #ee0979);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin bg-color-3 {
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ff6a00, #ee0979);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ff6a00, #ee0979);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin bg-color-4 {
+    background: #ee0979;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ff6a00, #ee0979);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ff6a00, #ee0979);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin bg-color-5 {
+    background: #ff00cc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #333399, #ff00cc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #333399, #ff00cc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin bg-color-6 {
+    background: #ff00cc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #333399, #ff00cc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #333399, #ff00cc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin bg-color-7 {
+    background: #833ab4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin bg-color-8 {
+    background: #833ab4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fcb045, #fd1d1d, #833ab4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fcb045, #fd1d1d, #833ab4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin bg-color-9 {
+    background: #4e54c8;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #8f94fb, #4e54c8);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #8f94fb, #4e54c8);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin dashboard-bg-color {
+    background: #D3CCE3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@mixin card-bg-color {
+    background-color: #fff;
+    color: #1c1953;
+    webkit-box-shadow: 0px 1px 107px -20px #312f2f;
+    -moz-box-shadow: 0px 1px 107px -20px #312f2f;
+    box-shadow: 0px 9px 14px -8px #312f2f;
+}
+
+$btn-color-1:#4f52cb;
+$btn-color-2:#3f41a2;
+/* color variable End */
